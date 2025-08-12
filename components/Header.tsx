@@ -14,9 +14,7 @@ const Header = () => {
       </div>
 
       {/* 中间的导航 */}
-      <NavigationComponent>
-        {/* 放置你的导航菜单项 */}
-      </NavigationComponent>
+      <NavigationComponent />
 
       {/* 右侧的语言选择 */}
       <div className="flex items-center space-x-4">
