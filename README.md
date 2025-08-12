@@ -40,7 +40,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 
-// 代码的更新与提交：
+#  代码的更新与提交：
 
 git status
 git add .
@@ -48,22 +48,22 @@ git commit -m "完成登录功能页面"
 git push
 
 
-// 分支作业流程：
-# 创建并切换分支
+#  分支作业流程：
+// 创建并切换分支
 git checkout -b feature/login-page
 
-# 开发代码，add + commit
+// 开发代码，add + commit
 git add .
 git commit -m "完成登录页面"
 
-# 切回 main 分支
+// 切回 main 分支
 git checkout main
 
-# 合并 feature 分支
+// 合并 feature 分支
 git merge feature/login-page
 
-# 如果合并成功，删除 feature 分支
+//  如果合并成功，删除 feature 分支
 git branch -d feature/login-page
 
-# 推送更新到远程 main
+//  推送更新到远程 main
 git push
