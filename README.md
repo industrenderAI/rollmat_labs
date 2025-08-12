@@ -52,11 +52,17 @@ git push
 // 创建并切换分支
 git checkout -b feature/login-page
 
-// 开发代码，add + commit给i他a
+// 开发代码，add + commit
 git add .
 git commit -m "完成登录页面"
 
-// 切回 main 分支
+// 推送分支到远程仓库
+git push -u origin feature/web-header
+
+// 查看当前分支
+git branch
+
+// 代码开发完成后，切换回 main 分支
 git checkout main
 
 // 合并 feature 分支
